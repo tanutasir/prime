@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     @include('layouts.inc.styles')
+    @include('layouts.inc.scripts')
 </head>
 <body>
     <div id="app">
@@ -75,6 +76,6 @@
     </div>
 
     <!-- Scripts -->
-    @include('layouts.inc.scripts')
+
 </body>
 </html>

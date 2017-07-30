@@ -26,6 +26,11 @@ class CarsController extends Controller
         return view('carslist');
     }
 
+    public function carsnew()
+    {
+        return view('carsnew');
+    }
+
     public function carsedit()
     {
         return view('carsedit');

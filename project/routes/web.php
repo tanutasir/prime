@@ -19,8 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/carslist', 'CarsController@carslist');
+Route::get('/carsnew', 'CarsController@carsnew');
+Route::get('/carsnewsave', 'CarsController@carsnewsave');
 Route::get('/carsedit', 'CarsController@carsedit');
-Route::get('/carsdelete', 'CarsController@carsedit');
+Route::get('/carsdelete', 'CarsController@carsdelete');
 Route::get('/getbyid/{id}', function ($id) {
     $rec = DB::table('cars')->where('id',$id)->first();
     return json_encode($rec);
