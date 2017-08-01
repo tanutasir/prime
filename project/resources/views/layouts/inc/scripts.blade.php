@@ -3,6 +3,7 @@
 <script src="{{ asset('js/app.js') }}"></script>
 
 <script src="{{ asset('libs/prime/primeui-all.min.js') }}"></script>
+<script src="{{ asset('libs/prime/plugins/plugins-all.js') }}"></script>
 <script src="{{ asset('libs/jquery-ui/jquery-ui.min.js') }}"></script>
 {{--<script src="{{ asset('libs/prime/primeelements.min.js') }}"></script>--}}
 {{--<script src="{{ asset('') }}"></script>--}}
